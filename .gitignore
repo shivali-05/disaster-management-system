@@ -1,0 +1,71 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Data (Too large for git)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+!data/metadata/.gitkeep
+!data/metadata/class_mapping.json
+!data/metadata/feature_schema.json
+models/segmentation/*.pt
+models/segmentation/*.pth
+models/detection/*.pt
+models/detection/*.pth
+checkpoints/
+*.pt
+*.pth
+*.weights
+!models/bigearthnet/resnet50-s2-v0.2.0/model.safetensors
+
+# Training and Run Outputs
+runs/
+outputs/
+logs/
+*.log
+wandb/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Large datasets
+data/raw/
+data/samples/
+data/processed/
+
+# Generated dataset artifacts
+*.zip
+
+dataset/
