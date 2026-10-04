@@ -1,0 +1,47 @@
+# Data Pipeline Configuration
+# Multi-Hazard Risk & Infrastructure Assessment MVP
+
+project:
+  random_seed: 42
+
+segmentation:
+  dataset: loveda
+  enabled: true
+  raw_root: data/raw/loveda
+  manifest: data/metadata/loveda_manifest.csv
+  subset:
+  train:
+    urban: 400
+    rural: 400
+
+  val:
+    urban: 75
+    rural: 75
+
+  test:
+    urban: 75
+    rural: 75
+  image_size: 512
+  ignore_label: 0
+
+detection:
+  dataset: xview
+  enabled: false
+  raw_root: data/raw/xview
+  processed_root: data/processed/detection
+  manifest: data/metadata/xview_manifest.csv
+  selected_classes: []
+  
+  split_ratio:
+    train: 0.70
+    val: 0.15
+    test: 0.15
+  tile_size: 1024
+  overlap: 0.15
+  min_visible_object_ratio: 0.30
+  negative_tile_ratio: 0.25
+
+case_study:
+  enabled: true
+  raw_root: data/raw/case_study
+  processed_root: data/processed/case_study
