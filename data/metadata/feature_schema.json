@@ -1,0 +1,110 @@
+{
+  "building_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as building structures."
+  },
+  "road_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as paved roads or transport networks."
+  },
+  "water_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as water bodies."
+  },
+  "barren_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as barren land or degraded ground."
+  },
+  "forest_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as forest cover."
+  },
+  "agriculture_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Proportion of total image area identified as agricultural land."
+  },
+  "vegetation_area_ratio": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "segmentation",
+    "description": "Combined vegetation proportion (forest_area_ratio + agriculture_area_ratio)."
+  },
+  "total_detected_objects": {
+    "type": "integer",
+    "minimum": 0,
+    "source": "detection",
+    "description": "Total count of detected infrastructure objects within the scene."
+  },
+  "object_density": {
+    "type": "float",
+    "minimum": 0.0,
+    "source": "detection",
+    "description": "Number of detected objects per unit area or standard tile."
+  },
+  "mean_detection_confidence": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "detection",
+    "description": "Average detection confidence score across all identified bounding boxes."
+  },
+  "building_water_proximity": {
+    "type": "float",
+    "minimum": 0.0,
+    "source": "spatial_analysis",
+    "description": "Calculated minimum distance or spatial proximity between detected buildings and water bodies."
+  },
+  "built_up_density": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "spatial_analysis",
+    "description": "Combined built-up infrastructure density metric incorporating buildings and roads."
+  },
+  "water_adjacency_score": {
+    "type": "float",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "source": "spatial_analysis",
+    "description": "Heuristic exposure score indicating the proportion of built-up infrastructure located directly adjacent to water bodies."
+  }
+}
