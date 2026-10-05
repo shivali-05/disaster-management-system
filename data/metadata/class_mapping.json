@@ -1,0 +1,53 @@
+{
+  "segmentation": {
+    "0": {
+      "name": "ignore",
+      "ignore": true,
+      "group": "background",
+      "description": "Ignore / no-data / unclassified pixels"
+    },
+    "1": {
+      "name": "background",
+      "ignore": false,
+      "group": "background",
+      "description": "Background land cover"
+    },
+    "2": {
+      "name": "building",
+      "ignore": false,
+      "group": "built_environment",
+      "description": "Residential, commercial, and industrial building structures"
+    },
+    "3": {
+      "name": "road",
+      "ignore": false,
+      "group": "built_environment",
+      "description": "Paved roads, highways, and transport surfaces"
+    },
+    "4": {
+      "name": "water",
+      "ignore": false,
+      "group": "water",
+      "description": "Rivers, lakes, ponds, canals, and open water bodies"
+    },
+    "5": {
+      "name": "barren",
+      "ignore": false,
+      "group": "land_degradation",
+      "description": "Barren land, bare soil, and degraded areas"
+    },
+    "6": {
+      "name": "forest",
+      "ignore": false,
+      "group": "vegetation",
+      "description": "Dense tree cover and forested areas"
+    },
+    "7": {
+      "name": "agriculture",
+      "ignore": false,
+      "group": "vegetation",
+      "description": "Cropland, cultivated fields, and managed agricultural land"
+    }
+  },
+  "detection": {}
+}

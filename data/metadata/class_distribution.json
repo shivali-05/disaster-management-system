@@ -1,0 +1,133 @@
+{
+  "dataset": "LoveDA MVP subset",
+  "total_samples": 200,
+  "total_pixels": 209715200,
+  "classes": {
+    "0": {
+      "name": "ignore",
+      "pixel_count": 6250244,
+      "percentage": 2.9803
+    },
+    "1": {
+      "name": "background",
+      "pixel_count": 74442832,
+      "percentage": 35.4971
+    },
+    "2": {
+      "name": "building",
+      "pixel_count": 23714159,
+      "percentage": 11.3078
+    },
+    "3": {
+      "name": "road",
+      "pixel_count": 12470764,
+      "percentage": 5.9465
+    },
+    "4": {
+      "name": "water",
+      "pixel_count": 13274841,
+      "percentage": 6.3299
+    },
+    "5": {
+      "name": "barren",
+      "pixel_count": 10784918,
+      "percentage": 5.1426
+    },
+    "6": {
+      "name": "forest",
+      "pixel_count": 22088410,
+      "percentage": 10.5326
+    },
+    "7": {
+      "name": "agriculture",
+      "pixel_count": 46689032,
+      "percentage": 22.2631
+    }
+  },
+  "scene_distribution": {
+    "urban": {
+      "0": {
+        "name": "ignore",
+        "pixel_count": 4133025,
+        "percentage": 3.9416
+      },
+      "1": {
+        "name": "background",
+        "pixel_count": 48565950,
+        "percentage": 46.3161
+      },
+      "2": {
+        "name": "building",
+        "pixel_count": 21079974,
+        "percentage": 20.1034
+      },
+      "3": {
+        "name": "road",
+        "pixel_count": 10495615,
+        "percentage": 10.0094
+      },
+      "4": {
+        "name": "water",
+        "pixel_count": 2407431,
+        "percentage": 2.2959
+      },
+      "5": {
+        "name": "barren",
+        "pixel_count": 7885062,
+        "percentage": 7.5198
+      },
+      "6": {
+        "name": "forest",
+        "pixel_count": 8980962,
+        "percentage": 8.5649
+      },
+      "7": {
+        "name": "agriculture",
+        "pixel_count": 1309581,
+        "percentage": 1.2489
+      }
+    },
+    "rural": {
+      "0": {
+        "name": "ignore",
+        "pixel_count": 2117219,
+        "percentage": 2.0191
+      },
+      "1": {
+        "name": "background",
+        "pixel_count": 25876882,
+        "percentage": 24.6781
+      },
+      "2": {
+        "name": "building",
+        "pixel_count": 2634185,
+        "percentage": 2.5122
+      },
+      "3": {
+        "name": "road",
+        "pixel_count": 1975149,
+        "percentage": 1.8836
+      },
+      "4": {
+        "name": "water",
+        "pixel_count": 10867410,
+        "percentage": 10.364
+      },
+      "5": {
+        "name": "barren",
+        "pixel_count": 2899856,
+        "percentage": 2.7655
+      },
+      "6": {
+        "name": "forest",
+        "pixel_count": 13107448,
+        "percentage": 12.5002
+      },
+      "7": {
+        "name": "agriculture",
+        "pixel_count": 45379451,
+        "percentage": 43.2772
+      }
+    }
+  }
+}
